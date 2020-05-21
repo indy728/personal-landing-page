@@ -1,0 +1,5 @@
+.footer {
+    @include zero-margin(4rem, 2rem);
+    background-color: $color-slate-light;
+    color: white;
+}

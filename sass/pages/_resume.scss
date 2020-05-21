@@ -1,0 +1,61 @@
+.resume {
+    &__picture {
+        &--shape {
+            width: 22rem;
+            height: 22rem;
+            position: relative;
+            overflow: hidden;
+            border-radius: 50%;
+            margin: 0 auto;
+
+            @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+                -webkit-clip-path: circle(50% at 50% 50%);
+                clip-path: circle(50% at 50% 50%);
+                -webkit-shape-outside: circle(50% at 50% 50%);
+                shape-outside: circle(50% at 50% 50%);
+                border-radius: none;
+            }
+        }
+
+        &--img {
+            height: 100%;
+            transform: translate(-1rem, 8.8rem) scale(4.2);
+            backface-visibility: hidden;
+            transition: all .5s;
+        }
+    }
+
+    &__details {
+
+        &--name {
+            font-family: $font-script;
+        }
+    }
+
+    &__nav {
+        &--item {
+
+            a {
+                color: $color-slate-dark;
+
+                .active {
+                    background-color: $color-slate-light-soft;
+                color: white;
+                }
+            }
+        }
+
+        &--link {
+            color: $color-slate-dark;
+
+            .active {
+                background-color: $color-slate-light-soft;
+                color: white;
+            }
+        }
+    }
+
+    &__tabs {
+        background-color: $color-slate-light-soft;
+    }
+}

@@ -1,0 +1,30 @@
+$danger: teal;
+@import "~bootstrap/scss/bootstrap";
+// @import "~bootstrap-social/bootstrap-social";
+
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/buttons";
+@import "components/carousel";
+@import "components/social-icons";
+
+@import "layouts/header";
+@import "layouts/footer";
+@import "layouts/main";
+@import "layouts/nav";
+
+@import "pages/home";
+@import "pages/resume";

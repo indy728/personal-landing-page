@@ -1,0 +1,17 @@
+//FOR ALL ELEMENT TYPES WHOSE STYLES WITH BE CONTINUOUS THROUGHOUT DOC
+body {
+    font-family: sans-serif;
+    color: $color-slate-dark;
+}
+
+.heading-primary {
+    text-transform: uppercase;
+
+    span {
+        display: block;
+    }
+
+    &--main {
+        text-transform: capitalize;
+    }
+}

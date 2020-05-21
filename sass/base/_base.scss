@@ -1,0 +1,31 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+//SETTING 1rem = 10px
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    padding: 3rem;
+    padding:50px 0px 0px 0px;
+    z-index:0;
+
+    font-size: 1.8rem;
+
+    a {
+        color: floralwhite;
+        text-decoration: none;
+    }
+    
+    a:hover, a:focus {
+        color: floralwhite;
+        text-decoration: underline;
+    }
+}

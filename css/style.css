@@ -1,0 +1,105 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  padding: 3rem;
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+  font-size: 1.8rem; }
+  body a {
+    color: floralwhite;
+    text-decoration: none; }
+  body a:hover, body a:focus {
+    color: floralwhite;
+    text-decoration: underline; }
+
+body {
+  font-family: sans-serif;
+  color: #182133; }
+
+.heading-primary {
+  text-transform: uppercase; }
+  .heading-primary span {
+    display: block; }
+  .heading-primary--main {
+    text-transform: capitalize; }
+
+.carousel {
+  background-color: rgba(90, 129, 203, 0.4); }
+
+.fa-envelope-o {
+  background-color: #182133;
+  color: white; }
+
+.jumbotron {
+  margin: 0px auto;
+  padding: 7rem 3rem;
+  margin: 0px auto;
+  background: #2a3a59;
+  color: floralwhite; }
+  .jumbotron .container img {
+    max-height: 12rem; }
+
+.footer {
+  margin: 0px auto;
+  padding: 4rem 2rem;
+  background-color: #5a81cb;
+  color: white; }
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px; }
+
+.navbar {
+  background-color: #182133; }
+  .navbar-nav li {
+    margin-left: 1rem; }
+
+.resume__picture--shape {
+  width: 22rem;
+  height: 22rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto; }
+  @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+    .resume__picture--shape {
+      -webkit-clip-path: circle(50% at 50% 50%);
+      clip-path: circle(50% at 50% 50%);
+      -webkit-shape-outside: circle(50% at 50% 50%);
+      shape-outside: circle(50% at 50% 50%);
+      border-radius: none; } }
+
+.resume__picture--img {
+  height: 100%;
+  transform: translate(-1rem, 8.8rem) scale(4.2);
+  backface-visibility: hidden;
+  transition: all .5s; }
+
+.resume__details--name {
+  font-family: "Merienda"; }
+
+.resume__nav--item a {
+  color: #182133; }
+  .resume__nav--item a .active {
+    background-color: rgba(90, 129, 203, 0.4);
+    color: white; }
+
+.resume__nav--link {
+  color: #182133; }
+  .resume__nav--link .active {
+    background-color: rgba(90, 129, 203, 0.4);
+    color: white; }
+
+.resume__tabs {
+  background-color: rgba(90, 129, 203, 0.4); }
